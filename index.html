@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+</head>
+<body>
+  
+  <section class="header">
+    <nav>
+      <a href="index.html"><img src="images/logo.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa-solid fa-xmark fa" onclick="hidemenu()"></i>
+        <ul>
+          <li><a href="index.html" >HOME</a></li>
+          <li><a href="about-us.html" target="_blank">ABOUT</a></li>
+          <li><a href="contact.html" target="_blank">CONTACT</a></li>
+        </ul>
+        
+      </div>
+      <i class="fa-solid fa-bars fa" onclick="showmenu()"></i>
+    </nav>
+    <div class="text-box">
+      <h1>We Educate <span>For Life</span></h1>
+      <p>Welcome to the SOS Herman Gemiener school Website.</p>
+      <a href="#">Contact Us</a>
+    </div>
+    
+
+  </section>
+  <!-- footer -->
+  <section class="cta">
+    <h1>SOS Children's Villages is the world’s 
+      largest non-governmental <br> organisation focused on supporting 
+      children  without  <br> parental care and families at risk.</h1>
+      <a class="hero-btn" href="#">About Us</a>
+  </section>  
+  <footer class="footer">
+    <div class="footer-content">
+
+      <p>SOS HGS Jimma</p>
+      <ul class="socials">
+        
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-telegram"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <p>copyright &copy;2023 SOS HGS. designed by <span>Dawit Taye</span></p>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+    var navlinks=document.getElementById("navLinks")
+    function showmenu(){
+      navlinks.style.right="0px";
+    }
+    function hidemenu(){
+      navlinks.style.right="-200px";
+    }
+  </script>
+
+
+
+</body>
+</html>
